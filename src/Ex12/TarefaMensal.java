@@ -20,4 +20,8 @@ public class TarefaMensal extends Tarefa {
         this.diaDoMes = diaDoMes;
     }
 
+    @Override
+    public boolean ocorreEm(int year, Month month, int day) {
+        return super.ocorreEm(year, month, day);
+    }
 }

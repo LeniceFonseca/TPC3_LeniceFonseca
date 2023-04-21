@@ -1,6 +1,7 @@
 package Ex12;
 
 import java.time.LocalDate;
+import java.time.Month;
 
 public class TarefaDiaria extends Tarefa {
 
@@ -8,4 +9,8 @@ public class TarefaDiaria extends Tarefa {
         super(descricao, data);
     }
 
+    @Override
+    public boolean ocorreEm(int year, Month month, int day) {
+        return true;
+    }
 }
