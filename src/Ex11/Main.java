@@ -59,8 +59,7 @@ public class Main {
         double value = scanner.nextDouble();
         System.out.print("Quantidade de donos: ");
         int numberOfOwners = scanner.nextInt();
-        System.out.println()
-        ;
+        System.out.println();
         SecondHandVehicle veiculo = new SecondHandVehicle(regNo, make, yearOfManufacture, value, numberOfOwners);
         veiculos.add(veiculo);
     }
